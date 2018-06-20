@@ -1,10 +1,11 @@
 package com.inheritance.demo.overload.example2;
 
 public class Snake extends Reptile {
-    protected boolean hasLegs() {
-        return false;
-    }
-    protected double getWeight() throws InsufficientDataException {
+    protected double getHeight() {
         return 2;
     }
+    protected int getWeight() {
+        return 10;
+    }
 }
+
